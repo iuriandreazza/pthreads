@@ -1,0 +1,32 @@
+{
+    "name": "mpm/pthreads",
+    "type": "library",
+    "description": "multi-threading that is compatible with PHP based on Posix Threads",
+    "keywords": [
+        "threads",
+        "async"
+    ],
+    "homepage": "http://pthreads.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Watkins",
+            "email": "http://pthreads.org"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/krakjoe/pthreads/issues",
+        "source": "https://github.com/krakjoe/pthreads"
+    },
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {},
+    "suggest": {},
+    "autoload": {},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
